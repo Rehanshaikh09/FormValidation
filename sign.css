@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.box1 {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.box2 {
+    width: 550px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5, 2px 2px 5px #000;
+    z-index: 2;
+    padding: 15px 20px;
+}
+.head h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color:#000;
+}
+.sign-body {
+    margin: 15px 0px;
+}
+.sign-body p {
+    margin: 8px 0;
+}
+.sign-body p label {
+    font-weight: 600;
+}
+.sign-body p input {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 13px;
+    padding: 7px;
+    border: 2px solid #cccc;
+    border-radius: 6px;
+}
+.sign-body p input[type="submit"] {
+    background-color: cornflowerblue;
+    padding: 11px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.sign-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+textarea {
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: lightcyan;
+}
+#skill {
+   margin: 5px;
+ }
